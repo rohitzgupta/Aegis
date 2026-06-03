@@ -49,3 +49,9 @@ streamlit run app.py
 ## Screenshots
 
 ![Home](screenshots/home.png)
+
+## Disclaimer
+
+This project provides AI-generated recommendations.
+
+Always validate SQL statements, maintenance actions, and operational guidance before executing in production environments.
