@@ -1,36 +1,43 @@
 # Python
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
 
-# Virtual Environment
+# Virtual Environments
 venv/
-.env/
+.env
+.env.*
 
-# Ollama models
-*.gguf
+# AWS
+.aws/
+*.pem
+*.key
+
+# Credentials
+credentials.json
+config.json
+secrets.json
+
+# Databases
+*.db
+*.sqlite
 
 # ChromaDB
 vectordb/
+chroma/
 
-# Mac
-.DS_Store
+# Logs
+*.log
 
 # IDE
 .vscode/
 .idea/
 
-# Secrets
-.env
-.env.local
+# Mac
+.DS_Store
 
-# Logs
-*.log
+# Inventory Files
+*_inventory.csv
+*_inventory.xlsx
 
-# AWS
-.aws/
-
-# Credentials
-credentials.json
-config.json
+docs/inventory/*
+!docs/inventory/sample_inventory.csv
