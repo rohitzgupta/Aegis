@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+.env/
+
+# Ollama models
+*.gguf
+
+# ChromaDB
+vectordb/
+
+# Mac
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Secrets
+.env
+.env.local
+
+# Logs
+*.log
+
+# AWS
+.aws/
+
+# Credentials
+credentials.json
+config.json
